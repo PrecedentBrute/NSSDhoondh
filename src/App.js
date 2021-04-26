@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Cards from "./Components/Cards/Cards";
+import SearchFilters from "./Components/SearchFilters/SearchFilters"
+
+const App = () => (
+    <div>
+        <h1 style={{textAlign:"center"}}>NSS DHOONDH</h1>
+        <SearchFilters />
+        <Cards />
     </div>
-  );
-}
+);
 
 export default App;

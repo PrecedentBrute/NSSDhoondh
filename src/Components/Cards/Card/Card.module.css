@@ -1,0 +1,45 @@
+.right{
+    text-align: right;
+}
+
+.infoCard{
+    width: 20%;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 3px 0px #969696;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .infoCard{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .infoCard{
+        width: 40%;
+    }
+}
+
+.available{
+    background-color: #a9dac0;
+    display: inline-block;
+    border-radius: 0.2rem;
+    padding: 3px;
+}
+
+.borderBottom{
+    border-bottom: 1px solid #b4b3b38c;
+}
+
+.tags{
+    background-color: #c9c4c4;
+    display: inline-block;
+    border-radius: 0.2rem;
+    padding: 3px;
+    color: rgb(30, 30, 139);
+}
+
+.padding{
+    padding: 4px;
+}

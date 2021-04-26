@@ -1,0 +1,9 @@
+.mainDiv{
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainDiv{
+        width: 75%;
+    }
+}
