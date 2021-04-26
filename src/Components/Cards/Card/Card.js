@@ -13,10 +13,11 @@ const Card = ({title="Default title", city="Pune", phone="1122334455"}) => {
                     <div style={{fontSize:"0.7rem"}}>Verified* 30 minutes ago</div>
                 </Col>
             </Row> 
+            
             <Row className={styles.padding}>
                 <Col>City: {city}</Col>
             </Row>
-            <Row>
+            <Row className={styles.padding}>
                 <Col>Phone: {phone}</Col>
             </Row>
             <Row className={styles.padding}>
